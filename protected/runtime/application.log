@@ -1,0 +1,8 @@
+2016/07/09 21:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tea".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('tea')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=tea
+---
