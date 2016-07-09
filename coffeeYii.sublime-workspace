@@ -1,0 +1,1021 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tea_ca",
+				"tea_category_id"
+			],
+			[
+				"tea",
+				"tea_category"
+			],
+			[
+				"s-fk",
+				"s-fk	sql-fk"
+			],
+			[
+				"s-f",
+				"s-alter-fk	sql-alter-fk"
+			],
+			[
+				"s--ta",
+				"s--table-tmp	sql-table-temporary-replace"
+			],
+			[
+				"s-db",
+				"s-db	sql-db"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"citi",
+				"cities_tb"
+			],
+			[
+				"ma",
+				"main_info"
+			],
+			[
+				"image",
+				"image_path"
+			],
+			[
+				"tif",
+				"tif_path"
+			],
+			[
+				"dat",
+				"data_list"
+			],
+			[
+				"my",
+				"my_ip"
+			],
+			[
+				"sh",
+				"shutil"
+			],
+			[
+				"exce",
+				"excel_name"
+			],
+			[
+				"ima",
+				"images_string"
+			],
+			[
+				"im",
+				"images_string"
+			],
+			[
+				"Sheet",
+				"Sheet_headers"
+			],
+			[
+				"Sh",
+				"Sheet_headers"
+			],
+			[
+				"ex",
+				"existed_images"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"so",
+				"s_counter"
+			],
+			[
+				"s",
+				"s_counter"
+			],
+			[
+				"b",
+				"b_counter"
+			],
+			[
+				"Y",
+				"YaDiskClient"
+			],
+			[
+				"fre",
+				"free_size"
+			],
+			[
+				"e",
+				"execute"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"com",
+				"compressed_value"
+			],
+			[
+				"test",
+				"test_value3"
+			],
+			[
+				"range",
+				"range_decoder"
+			],
+			[
+				"int",
+				"int_dec"
+			],
+			[
+				"hex",
+				"hex_dec"
+			],
+			[
+				"last",
+				"last_a"
+			],
+			[
+				"num",
+				"num_max"
+			],
+			[
+				"ine",
+				"index_range_list"
+			],
+			[
+				"base",
+				"base_num"
+			],
+			[
+				"file",
+				"file_string"
+			],
+			[
+				"enco",
+				"encoded_string"
+			],
+			[
+				"co",
+				"coef_dict"
+			],
+			[
+				"he",
+				"hex_numbers_tb"
+			],
+			[
+				"al",
+				"alphabet"
+			],
+			[
+				"enc",
+				"encoded_string"
+			],
+			[
+				"string",
+				"string_num"
+			],
+			[
+				"write",
+				"write_string"
+			],
+			[
+				"Dec",
+				"Decimal_num"
+			],
+			[
+				"dec",
+				"dec_num"
+			],
+			[
+				"str",
+				"string_num"
+			],
+			[
+				"pr",
+				"produce_seq"
+			],
+			[
+				"res",
+				"result_y"
+			],
+			[
+				"img",
+				"image_list"
+			],
+			[
+				"xlsx",
+				"xlsxToCSV"
+			],
+			[
+				"save",
+				"save_img_path"
+			],
+			[
+				"ti",
+				"tif_list"
+			],
+			[
+				"wate",
+				"watermark_width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "protected/config/main.php",
+			"settings":
+			{
+				"buffer_size": 1990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/config/database.php",
+			"settings":
+			{
+				"buffer_size": 369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/views/tea/index.php",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "protected/views/tea/_view.php",
+			"settings":
+			{
+				"buffer_size": 788,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/!REBOOT BACKUP/domains/coffeeMVC/models/tea_model.php",
+			"settings":
+			{
+				"buffer_size": 316,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/!REBOOT BACKUP/domains/coffeeMVC/views/tea/index.php",
+			"settings":
+			{
+				"buffer_size": 1649,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ultha/AppData/Roaming/Sublime Text 3/Packages/User/MySQL.sublime-build",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/TruePython.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/TruePython.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/TruePython.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "syn htm",
+		"selected_items":
+		[
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/OpenServer/domains/coffeeYii",
+		"/C/OpenServer/domains/coffeeYii/protected",
+		"/C/OpenServer/domains/coffeeYii/protected/controllers",
+		"/C/OpenServer/domains/coffeeYii/protected/models",
+		"/C/OpenServer/domains/coffeeYii/protected/views",
+		"/C/OpenServer/domains/coffeeYii/protected/views/tea"
+	],
+	"file_history":
+	[
+		"/C/Users/ultha/Desktop/test.sql",
+		"/C/OpenServer/modules/database/MySQL-5.6/my.ini",
+		"/C/Users/ultha/AppData/Roaming/Sublime Text 3/Packages/User/MySQL.sublime-build",
+		"/C/Users/ultha/Desktop/Книга по лекции Людвига - Дизайн.txt",
+		"/C/Python27/Projects/!mama.net/new_dev/auto/unknown_city_log.txt",
+		"/C/Users/ultha/.ssh/id_rsa.pub",
+		"/C/Users/ultha/.ssh/id_rsa",
+		"/C/Users/ultha/.ssh/known_hosts",
+		"/C/OpenServer/domains/coffeeYii/images/.gitkeep",
+		"/C/OpenServer/domains/coffeeYii/assets/.gitignore",
+		"/C/OpenServer/domains/coffeeYii/gulpfile.js",
+		"/C/Users/ultha/Desktop/npm-sport/gulpfile.js",
+		"/C/OpenServer/domains/need2fix/.htaccess",
+		"/C/OpenServer/domains/coffeeYii/.htaccess",
+		"/C/OpenServer/domains/coffeeYii/protected/.htaccess",
+		"/C/OpenServer/domains/need2fix/Пользователи.txt",
+		"/C/OpenServer/domains/need2fix/protected/models/Address.php",
+		"/C/OpenServer/domains/need2fix/protected/controllers/UserController.php",
+		"/C/OpenServer/domains/need2fix/sftp-config.json",
+		"/C/OpenServer/domains/coffeeYii/package.json",
+		"/C/OpenServer/domains/yii-1.1.17.467ff50/requirements/index.php",
+		"/C/OpenServer/domains/need2fix/protected/views/dealer/create1.php",
+		"/C/OpenServer/domains/need2fix/protected/modules/admin/controllers/DefaultController.php",
+		"/C/OpenServer/domains/need2fix/auto_cities.py",
+		"/C/Users/ultha/Downloads/tbl_city.sql",
+		"/C/OpenServer/domains/need2fix/protected/config/database.php",
+		"/C/OpenServer/domains/need2fix/protected/views/layouts/main.php",
+		"/C/OpenServer/domains/novikovMVC/sftp-config.json",
+		"/C/Python27/Projects/autotrader/auto_cities.py",
+		"/C/OpenServer/domains/need2fix/protected/.htaccess",
+		"/C/Users/ultha/Downloads/yii_manual_ru.fb2",
+		"/C/Python27/Projects/!New_Functional/PILimageSetsBySize/PILimageSetsBySize.py",
+		"/C/Python27/Projects/!New_Functional/PILmakeImageThumbnails/PILmakeImageThumbnails.py",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/result.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/forum_parser.spec",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hooks.py",
+		"/C/Python27/Projects/!New_Functional/unixtimestamp.com/unixtimestamp.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/forum_parser.py",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/pyobf.py",
+		"/C/Python27/Projects/!New_Functional/cx_freeze_test/forum_parser/forum_parser.py",
+		"/C/Users/ultha/AppData/Roaming/Skype/My Skype Received Files/restDoc/restDoc/restDoc.txt",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/test.py",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/parser.py",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/some_parser.py",
+		"/C/Python27/Projects/!New_Functional/cx_freeze_test/forum_parser/setup.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/options.spec",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hook-data.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hooks/hooks.py",
+		"/C/Python27/Projects/!New_Functional/self_destroy/self_destroy.py",
+		"/C/Python27/Projects/!New_Functional/self_destroy/text.txt",
+		"/C/Python27/Projects/!New_Functional/cx_freeze_test/sqrt.py",
+		"/C/Python27/Projects/!New_Functional/cx_freeze_test/setup.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/dist/blacklist.txt",
+		"/C/Python27/Projects/!New_Functional/Cython_test/dist/forum_parser.exe",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/1. pyobf/parser.txt",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/obf_test_opy/l111l11l_opy_.py",
+		"/C/Python27/Projects/!New_Functional/Obfuscate_pythoncode/obf_test/opy_config.txt",
+		"/C/Python27/Projects/!New_Functional/Cython_test/dist/hello_world.txt",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hello_world.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/build/temp.win32-2.7/Release/hello_world.obj",
+		"/C/Python27/Projects/!New_Functional/Cython_test/build/temp.win32-2.7/Release/hello_world.lib",
+		"/C/Python27/Projects/!New_Functional/Cython_test/build/temp.win32-2.7/Release/hello_world.exp",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hello_world.c",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hello_world.pyx",
+		"/C/Python27/Projects/!New_Functional/Cython_test/setup.py",
+		"/C/Python27/Projects/!New_Functional/Cython_test/hello_world.pyd",
+		"/C/Python27/Projects/!New_Functional/SQLAlchemy/SQLAlchemyAsync.py",
+		"/C/Python27/Projects/!New_Functional/SQLAlchemy/usertable.py",
+		"/C/Python27/Projects/!New_Functional/SQLAlchemy/gevent_sqlalchemy_test.py",
+		"/C/Python27/Projects/!New_Functional/SQLAlchemy/SQLAlchemy_test.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/rangeCodingV1.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/my_own_acV4.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/my_own_acV3.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/my_own_acV2.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/FloatToBin.py",
+		"/C/Python27/Lib/smtplib.py",
+		"/C/Python27/Projects/!New_Functional/pfcompression/pfcompression.py",
+		"/C/Python35/Projects/mx/mx.py",
+		"/C/Python27/Projects/!New_Functional/Google-Search-API/google-searchV3.py",
+		"/C/Python27/Projects/!New_Functional/Google-Search-API/site_links.txt",
+		"/C/Python27/Projects/!New_Functional/Google-Search-API/google-searchV2.py",
+		"/C/Python27/Projects/!New_Functional/arithmeticCoding/my_own_ac_single_test.py",
+		"/C/Python27/Projects/!New_Functional/yadisk_test/yadisk_testV2.py",
+		"/C/Python27/Projects/keram.ru/keramV2.py",
+		"/C/Python27/Lib/site-packages/webdav/client.py",
+		"/C/Python27/Projects/!New_Functional/yadisk_test/yadisk_testV4.py",
+		"/C/Python27/Lib/site-packages/YaDiskClient/YaDiskClient.py",
+		"/C/Python27/Projects/!New_Functional/phantomJS/phantomJS_test.py",
+		"/C/Python27/Projects/!New_Functional/BeautifulSoup_test/BeautifulSoup_test.py",
+		"/C/Python27/Projects/!New_Functional/yadisk_test/yadisk_test.py",
+		"/C/OpenServer/domains/xtubetv/index.html",
+		"/C/Python27/Projects/!New_Functional/JavascriptRespEmulation/JavascriptRespEmulation.py",
+		"/C/Python27/Projects/!New_Functional/loadPartOfImage/loadPartOfImageV7.py",
+		"/C/Python27/Projects/!New_Functional/loadPartOfImage/loadPartOfImageV6.py",
+		"/C/Python27/Projects/!New_Functional/deletePartOfImageInPixels/deletePartOfImageInPixels.py",
+		"/C/Python27/Projects/parts.japancar.ru/parts.japancar.py",
+		"/C/Python27/Projects/!New_Functional/DownloadImagesWithChangedPath/DownloadImagesWithChangedPath.py",
+		"/C/Python27/Projects/turboru-price-merge/turboru-price-merge.py",
+		"/C/Python27/Projects/!New_Functional/mahotas_test/mahotas.py",
+		"/C/Users/ultha/Downloads/gdmodule-master/gdmodule-master/setup.py",
+		"/C/Python27/Lib/site-packages/png.py",
+		"/C/Python27/Projects/!New_Functional/PyPNG_test/PyPNG_test.py",
+		"/C/Python27/Projects/zzap.ru/zzapV4.py",
+		"/D/!REBOOT BACKUP/misc/hide/my_parser_vpn_elibrary.py",
+		"/D/!REBOOT BACKUP/misc/hide/parser_vpn.py",
+		"/C/Python27/Projects/!New_Functional/OpenVPNresp/OpenVPNresp.py",
+		"/C/Python27/Projects/!New_Functional/DeleteImagesThatNotInFile/DeleteImagesThatNotInFile.py",
+		"/C/Python27/Projects/!New_Functional/open_read_write/test.txt",
+		"/C/Python27/Projects/!New_Functional/RegexForStringWithSameSplitter/RegexForStringWithSameSplitter.py",
+		"/C/Python27/Projects/!New_Functional/PILconvertTIFFtoJPG/PILconvertAnyImagesToJPG.py",
+		"/C/Python27/Projects/!New_Functional/open_read_write/open_read_write.py",
+		"/C/Python27/lib/site-packages/matplotlib/font_manager.py",
+		"/C/Python27/Projects/!mama.net/1. olx.ua/olx_Categories.py",
+		"/C/Python27/Projects/!New_Functional/openCV_test/openCV_test.py",
+		"/C/Python27/Projects/!New_Functional/Clipboard_test/clipboard_test.py",
+		"/C/Python27/Projects/!New_Functional/XPath_with_Regex/XPath_with_Regex.py",
+		"/C/Python27/Projects/!New_Functional/XPath_prev_br/XPath_prev_br.py",
+		"/C/Python27/Projects/allegro.pl/yadisk_testV3.py",
+		"/C/Python27/Projects/!New_Functional/yadisk_test/yadisk_testV3.py",
+		"/C/Python27/Projects/uzl/olx_uzlimeV2.py",
+		"/C/Python27/Projects/!New_Functional/openCV_test/openCV_test",
+		"/C/Users/ultha/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/ultha/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ultha/Downloads/openvpn-manager-1.0.0.dev6/openvpn-manager-1.0.0.dev6/openvpn_manager/api/app.py",
+		"/C/Users/ultha/Downloads/openvpn-manager-1.0.0.dev6/openvpn-manager-1.0.0.dev6/openvpn_manager/test_api.py",
+		"/C/Users/ultha/Downloads/openvpn-manager-1.0.0.dev6/openvpn-manager-1.0.0.dev6/openvpn_manager/docs/httpd.conf.sample",
+		"/C/Users/ultha/Downloads/openvpn-manager-1.0.0.dev6/openvpn-manager-1.0.0.dev6/openvpn_manager/docs/config.json.sample",
+		"/C/Python27/Projects/!New_Functional/DownloadImagesWithChangedPath/import/!6-dush.csv"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			",\\s*(\\d+) (\\d+)\\s*,",
+			"<h4 class=\"clearfix\">\\s*([а-я])\\s*<em>([^<]+)</em>\\s*<span>\\s*([\\d ]+)\\s*<span class=\"ruble\">Р</span>\\s*</span>\\s*</h4>\\s*<p>\\s*([^<]+[а-я\\.])\\s+",
+			"<h3>[^<]+</h3>\\s*<ul>\\s*<li>\\s*<h4 class=\"clearfix\">\\s*([а-я])\\s*<em>([^<]+)</em>\\s*<span>\\s*([\\d ]+)\\s*<span class=\"ruble\">Р</span>\\s*</span>\\s*</h4>\\s*<p>\\s*([^<]+[а-я\\.])\\s+",
+			"<h4 class=\"clearfix\">\\s*([а-я])\\s*<em>([^<]+)</em>\\s*<span>\\s*([\\d ]+)\\s*<span class=\"ruble\">Р</span>\\s*</span>\\s*</h4>\\s*<p>\\s*([^<]+[а-я\\.])\\s+",
+			"<h4 class=\"clearfix\">\\s*([а-я])\\s*<em>([^<]+)</em>\\s*<span>\\s*([\\d ]+)\\s*<span class=\"ruble\">Р</span>\\s*</span>\\s*</h4>\\s*<p>\\s*([^<]+)\\s+",
+			"<h4 class=\"clearfix\">\\s*([а-я])\\s*<em>([^<]+)</em>\\s*<span>\\s*([\\d ]+)\\s*<span class=\"ruble\">Р</span>\\s*</span>\\s*</h4>\\s*<p>\\s*([^<]+)\\s*",
+			"connec",
+			"<h3>[^<]+</h3>",
+			"foreign_key",
+			"tea_category",
+			"far_key",
+			"far_table",
+			"fox",
+			"cat",
+			"dog",
+			"findCities",
+			"update",
+			"where_dict",
+			"row",
+			"([а-я\\w\\d][-\\.\\,]*)</p>\\n\\n<p>([а-я\\w\\d]+)",
+			"forum_parser",
+			"sqrt",
+			"encode",
+			"7",
+			"alpha",
+			"reader",
+			"model",
+			"mark",
+			"datetime",
+			"route_full_print",
+			"instancemetho",
+			"len(",
+			"instancemethod",
+			"ELSE",
+			"186",
+			"/ip/",
+			"62\\.",
+			"serv_length",
+			"utils",
+			"imaimages_listges",
+			"ws_headers",
+			"open_",
+			"filename",
+			"xlrd",
+			"asd",
+			"110",
+			"continue_flag",
+			"response",
+			"req",
+			"[\\d\\.]\\.+",
+			"[\\d\\.]+",
+			"\\d=",
+			"pdf",
+			"upload_file",
+			"disk",
+			"TEST",
+			"[\\w/+ \\.'#\\(\\)-]+ \\((\\d+)\\)\\n",
+			"[\\w/+ \\.']+ \\((\\d+)\\)\\n",
+			"[\\w&' ]+ \\((\\d+)\\)\\n",
+			"SMTP",
+			"SMTP(",
+			"connection",
+			"num",
+			"low",
+			"high",
+			"range",
+			"6875",
+			"string",
+			"index_range",
+			"x",
+			"hex_id",
+			"sorted_d",
+			"field_dict",
+			"encoded_string",
+			"\\n",
+			"lstrip",
+			"last_a",
+			"Decimal",
+			"range_low",
+			"!",
+			"length",
+			"last_a",
+			"c1 ",
+			"tot1",
+			";\\s*",
+			"chr",
+			"jscontext",
+			"http://uppod.pro365.biz/video_uroki/kurs3/[^\"]+",
+			"demo",
+			"width",
+			"img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			", \\1\\2 ,",
+			"(2, '\\1\\2', \\3, '\\4'),\\n",
+			"(1, '\\1\\2', \\3, '\\4'),\\n",
+			"(1, '\\1\\2', \\3, '\\4'),",
+			"\\1 \\2",
+			"\\1\\n",
+			" ",
+			"/",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "protected/config/main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"easy_motion_mode": false,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "protected/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "protected/views/tea/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "protected/views/tea/_view.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/!REBOOT BACKUP/domains/coffeeMVC/models/tea_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/!REBOOT BACKUP/domains/coffeeMVC/views/tea/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1649,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1565,
+										1568
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/ultha/AppData/Roaming/Sublime Text 3/Packages/User/MySQL.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 280.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "Packages/User/MySQL.sublime-build",
+	"project": "coffeeYii.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main",
+				"protected\\config\\main.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "coff",
+		"selected_items":
+		[
+			[
+				"coff",
+				"C:\\OpenServer\\domains\\coffeeMVC\\coffeeMVC.sublime-project"
+			],
+			[
+				"",
+				"C:\\OpenServer\\domains\\need2fix\\need2fix.sublime-project"
+			],
+			[
+				"ne",
+				"C:\\OpenServer\\domains\\need2fix\\need2fix.sublime-project"
+			],
+			[
+				"nee",
+				"C:\\OpenServer\\domains\\need2fix\\need2fix.sublime-project"
+			],
+			[
+				"novi",
+				"C:\\OpenServer\\domains\\novikovMVC\\novikovMVC.sublime-project"
+			],
+			[
+				"robo",
+				"C:\\Python27\\Projects\\robotcomp.ru\\robotcomp.ru.sublime-project"
+			],
+			[
+				"uzl",
+				"C:\\Python27\\Projects\\uzl\\uzl.sublime-project"
+			],
+			[
+				"iso",
+				"C:\\Python27\\Projects\\isolux.ru\\isolux.sublime-project"
+			],
+			[
+				"uz",
+				"C:\\Python27\\Projects\\uzl\\uzl.sublime-project"
+			],
+			[
+				"pi",
+				"C:\\Python27\\Projects\\Pivotal\\Pivotal.sublime-project"
+			],
+			[
+				"tota",
+				"C:\\Python27\\Projects\\total.com.tr\\total.com.tr.sublime-project"
+			],
+			[
+				"zz",
+				"C:\\Python27\\Projects\\zzap.ru\\zzap.ru.sublime-project"
+			],
+			[
+				"san",
+				"C:\\Python27\\Projects\\santehnika-online.ru\\santehnika-online.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
