@@ -92,13 +92,13 @@
 							'htmlOptions' => array( 'class' => 'nav navbar-nav navbar-right'),
 							'id' => '',
 							'items'=>array(
-								array('label'=>'Главная'   , 'url'=>array('/main/'), 'active' => Yii::app()->controller->getId() == 'main'),
-								array('label'=>'О компании', 'url'=>array('/about/'), 'active' => Yii::app()->controller->getId() == 'about'),
-								array('label'=>'Чай'       , 'url'=>array('/tea/index')),
-								array('label'=>'Кофе'      , 'url'=>array('/coffee/'), 'active' => Yii::app()->controller->getId() == 'coffee'),
-								array('label'=>'Услуги'    , 'url'=>array('/service/index')),
-								array('label'=>'Галерея'   , 'url'=>array('/gallery/index')),
-								array('label'=>'Контакты'  , 'url'=>array('/contact/index')),
+								array('label'=>'Главная'   , 'url'=>array('/main/')   , 'active' => Yii::app()->controller->getId() == 'main'),
+								array('label'=>'О компании', 'url'=>array('/about/')  , 'active' => Yii::app()->controller->getId() == 'about'),
+								array('label'=>'Чай'       , 'url'=>array('/tea/')    , 'active' => Yii::app()->controller->getId() == 'tea'),
+								array('label'=>'Кофе'      , 'url'=>array('/coffee/') , 'active' => Yii::app()->controller->getId() == 'coffee'),
+								array('label'=>'Услуги'    , 'url'=>array('/service/'), 'active' => Yii::app()->controller->getId() == 'service'),
+								array('label'=>'Галерея'   , 'url'=>array('/gallery/'), 'active' => Yii::app()->controller->getId() == 'gallery'),
+								array('label'=>'Контакты'  , 'url'=>array('/contact/'), 'active' => Yii::app()->controller->getId() == 'contact'),
 						))); 
 					?>
 
