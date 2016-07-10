@@ -1,57 +1,149 @@
-<?php /* @var $this Controller */ ?>
+<?php /* @var $this Controller */ 
+
+	Yii::app()->clientScript->registerScriptFile('/js/jquery-1.11.1.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery-migrate-1.2.1.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/bootstrap.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.scrollTo.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.nav.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.mobile.customized.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.easing.1.3.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/camera.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.shuffle.modernizr.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/jquery.magnific-popup.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/wow.min.js', CClientScript::POS_END);
+	Yii::app()->clientScript->registerScriptFile('/js/custom.js', CClientScript::POS_END);
+   
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="language" content="en">
+	<meta name="language" content="ru">
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print">
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico" type="image/x-icon">
+
+	<!-- Bootstrap -->
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Google Web Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<!-- Template CSS Files  -->
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/font-awesome.min.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/animate.min.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/camera.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/magnific-popup.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/responsive.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="js/ie8-responsive-file-warning.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 
-<div class="container" id="page">
+<div class="wrap">
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
+	<!-- Preloader / Starts -->
+	 <div class="loader"></div>
+	<!-- Preloader / Ends -->
+	
+	<header>
 
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+		<!-- Navbar / Starts -->
+		<nav class="navbar navbar-default sticky-nav" role="navigation">
+			<div class="container">
+
+				<!-- Navbar Header / Starts -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="/main" class="navbar-brand">
+						<img class="img-responsive hidden-xs" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" alt="Mskcofe">
+						<img class="img-responsive visible-xs" src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo-small.png" alt="Mskcofe">
+					</a>
+				</div>
+				<!-- Navbar Header / Ends -->
+
+				<!-- Navbar Collapse / Starts -->
+				<div class="navbar-collapse collapse">
+
+					<?php $this->widget('zii.widgets.CMenu', array(
+							'htmlOptions' => array( 'class' => 'nav navbar-nav navbar-right'),
+							'id' => '',
+							'items'=>array(
+								array('label'=>'Главная'   , 'url'=>array('/main/'), 'active' => Yii::app()->controller->getId() == 'main'),
+								array('label'=>'О компании', 'url'=>array('/about/'), 'active' => Yii::app()->controller->getId() == 'about'),
+								array('label'=>'Чай'       , 'url'=>array('/tea/index')),
+								array('label'=>'Кофе'      , 'url'=>array('/coffee/'), 'active' => Yii::app()->controller->getId() == 'coffee'),
+								array('label'=>'Услуги'    , 'url'=>array('/service/index')),
+								array('label'=>'Галерея'   , 'url'=>array('/gallery/index')),
+								array('label'=>'Контакты'  , 'url'=>array('/contact/index')),
+						))); 
+					?>
+
+				</div>
+				<!-- Navbar Collapse / Ends -->
+
+			</div>
+		</nav>
+		<!-- Navbar / Ends -->
+
+	</header>
 
 	<?php echo $content; ?>
 
-	<div class="clear"></div>
+	<!-- Footer Section / Starts -->
+	<div class="footer">
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+		<!-- Container / Starts -->
+		<div class="container">
+			<div class="row">
+
+				<!-- Copyright Text / Starts -->
+				<div class="col-md-6 col-sm-12 wow fadeInDown">
+					<p>&copy Все права защищены 2014 - <?= date("Y"); ?>, <a style="color: #00AEEF;" title="Разработка сайта" target="_blank" onfocus="blue()" href="#"> Ultharas </a>  </p>						
+				</div>
+				<!-- Copyright Text / Ends -->
+
+				<!-- Social Media Links / Starts -->					
+				<div class="col-md-6 col-sm-12">
+					<ul class="list-unstyled list-inline wow fadeInUp">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-skype"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					</ul>
+				</div>
+				<!-- Social Media Links / Ends -->
+
+			</div>
+		</div>
+		<!-- Container / Ends -->
+
+	</div>
+	<!-- Footer Section / Ends -->	
 
 </div><!-- page -->
 

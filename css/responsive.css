@@ -1,0 +1,1304 @@
+/* Large Devices Styles Starts */
+@media (min-width: 960px) {
+
+	/* About Section Styles Starts */
+	
+	.spl-box h2, 
+	.spl-box p {
+		margin-right: 30px;
+	}
+	
+}
+
+/* Medium Devices Styles Starts */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	/* Navigation Styles Starts */
+	
+		.navbar-nav li {
+			padding: 15px 10px;
+		}
+
+	/* About Section Styles Starts */
+	
+	.spl-box h2, 
+	.spl-box p {
+		margin-right: 30px;
+	}
+	
+	/* Gallery Section Styles Starts */
+	
+		ul#gallery-grid li {
+			min-height: 175px;
+			height: auto !important;
+			height: 175px;
+		}
+}
+
+/* Small Devices Styles Starts */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.our-menu .container{
+		margin-top: 150px;
+	}
+	.services .container{
+		margin-top: 80px;
+	}
+	.gallery .container{
+		margin-top: 80px;
+	}
+	.about2 .container{
+		margin-top: 150px;
+	}
+	.camera_wrap{
+		margin-top: 150px;
+	}
+	.contact .container{
+		margin-top: 80px;
+	}
+	.coffee-machine-zakaz .container{
+		margin-top: 200px !important;
+	}
+	.navbar-nav{
+		margin: -15px;
+	}	
+
+	/* Navigation Styles Starts */
+	
+	.navbar-default { 
+		text-align: center;
+	}
+	.sticky-nav:after {
+		bottom: -8px;
+	}
+	.navbar-nav {
+		margin-top: -40px;
+	}
+		.navbar-header, 
+		.navbar-brand, 
+		.navbar-right, 
+		.navbar-nav {
+			float: none !important;
+		}		 
+		.navbar-brand {
+			padding: 0;
+		}
+		.navbar-brand .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	/* Slider Section Styles Starts */
+	
+		.camera_caption {
+			top: 16%;
+		}
+		.camera_caption h1 {
+			font-size: 38px;
+		}
+
+	/* About Section Styles Starts */
+	
+	.about {
+		text-align: center;
+	}
+		.about .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.spl-box {
+			padding: 30px;
+		}
+		.spl-box h2 {
+			font-size: 42px;
+		}
+		
+		/* Gallery Section Styles Starts */
+	
+		ul#gallery-grid li {
+			min-height: 180px;
+			height: auto !important;
+			height: 180px;
+		}
+
+	/* Contact Section Styles Starts */
+	
+	.contact form {
+		margin-bottom: 40px;
+	}
+	
+	/* Footer Section Styles */
+
+	.footer 	 {
+		text-align:center;
+	}
+		.footer ul {
+			float:none;
+			margin:20px 0 0 0;
+		}
+		
+	/* Generic Styles Starts */
+	
+	.spacer { height: 30px; }
+	
+}
+
+/* Extra Small Devices Styles Starts */
+
+@media (max-width: 767px) {
+	.navbar-nav{
+		//margin: -15px;
+	}	
+
+	/* Navigation Styles Starts */
+	
+	.navbar {
+		min-height: 75px;
+		padding-top: 10px;
+	}
+		.sticky-nav:after {
+			display: none;
+			bottom: -11px;
+		}
+		.navbar-default .navbar-toggle {
+			border-color: #fff;
+		}
+		.navbar-default .navbar-toggle .icon-bar {
+			background-color: #fff;
+		}
+		.navbar-default .navbar-toggle:hover, 
+		.navbar-default .navbar-toggle:focus {
+			background-color: #a3543f;
+			border-color: #cb755f;
+		}
+		.navbar-default .navbar-collapse, 
+		.navbar-default .navbar-form {
+			border: none;
+		}
+		.navbar-nav {
+			border-top: 1px solid #3f2511;
+		}
+			.navbar-nav li {
+				padding: 10px 0;
+				font-size: 16px;
+				text-align: center;
+			}
+			.navbar-nav li + li {
+				border-top: 1px solid #4a2e19;
+			}
+				.navbar-nav li.current a, 
+				.navbar-nav li a:hover {
+					color: #a3543f !important;
+				}
+				.navbar-nav li.current a {
+					padding-bottom: 0;
+					border-bottom: none;
+				}
+
+	/* Slider Section Styles Starts */
+	
+	.camera_caption {
+		top: 8%;
+	}
+		.camera_caption h1 {
+			font-size: 22px;
+		}
+
+	/* Featured Block Styles Starts */
+	
+	.featured-block {
+		padding-top: 5px;
+	}	
+		.featured-block .img-responsive {
+			padding-top: 30px;
+		}
+
+	/* About Section Styles Starts */
+	
+	.about {
+		text-align: center;
+	}
+		.about h2 {
+			line-height: 40px;
+		}
+		.about h2 span {
+			font-size: 30px;
+		}
+		.about p.lead {
+			font-size: 16px;
+		}
+		.about .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	.coffee-machine {
+		text-align: center;
+	}
+		.coffee-machine h2 {
+			line-height: 30px;
+			font-size: 30px;
+		}
+		.coffee-machine h2 span {
+			font-size: 30px;
+		}
+		.coffee-machine p.lead {
+			font-size: 16px;
+		}
+		.coffee-machine .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.spl-box {
+			padding: 30px;
+		}
+			.spl-box h2 {
+				font-size: 38px;
+			}
+			
+	/* Services Section Styles Starts */
+	
+	.services {
+		text-align: center;
+	}
+		.services .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	/* Gallery Section Styles Starts */
+	
+		ul#gallery-filter li a.btn {
+			padding: 6px 15px;
+			font-size: 16px;
+		}
+	
+		ul#gallery-grid li {
+			min-height: 83px;
+			height: auto !important;
+			height:83px;
+		}
+			ul#gallery-grid li .img-responsive {
+				margin-left: auto;
+				margin-right: auto;
+			}
+				.head-part {
+					height: 100%;
+				}
+					.head-part i.fa {
+						font-size: 26px;
+					}
+
+	/* Contact Section Styles Starts */
+	
+	.contact form {
+		margin-bottom: 30px;
+	}
+
+	/* Footer Section Styles */
+
+	.footer 	 {
+		text-align:center;
+	}
+		.footer ul {
+			float:none;
+			margin:20px 0 0 0;
+		}
+			.footer li {
+				padding-left: 10px;
+				font-size: 30px;
+			}
+			
+	/* Generic Styles Starts */
+	
+	.spacer { height: 20px; }
+	
+
+	.coffee-machine ul li {
+		float: none;
+		width: 100%;
+
+	}
+	.coffee-machine{
+		text-align: left;
+	}
+	.coffee-machine a img{
+		left: 150px;
+		position: relative;
+	}
+	.coffee-machine ul h4 {
+		width: 450px;
+	}
+	.machine-pic{
+		float: none;
+	}
+}
+.col-md-3 .col-xs-12 .img-responsive{
+	position: relative;
+	top: 12px;
+	left: 12px;
+}
+
+@media (max-width: 610px) {
+
+	/* Navigation Styles Starts */
+	
+	.navbar {
+		min-height: 75px;
+		padding-top: 10px;
+	}
+		.sticky-nav:after {
+			display: none;
+			bottom: -11px;
+		}
+		.navbar-default .navbar-toggle {
+			border-color: #fff;
+		}
+		.navbar-default .navbar-toggle .icon-bar {
+			background-color: #fff;
+		}
+		.navbar-default .navbar-toggle:hover, 
+		.navbar-default .navbar-toggle:focus {
+			background-color: #a3543f;
+			border-color: #cb755f;
+		}
+		.navbar-default .navbar-collapse, 
+		.navbar-default .navbar-form {
+			border: none;
+		}
+		.navbar-nav {
+			border-top: 1px solid #3f2511;
+		}
+			.navbar-nav li {
+				padding: 10px 0;
+				font-size: 16px;
+				text-align: center;
+			}
+			.navbar-nav li + li {
+				border-top: 1px solid #4a2e19;
+			}
+				.navbar-nav li.current a, 
+				.navbar-nav li a:hover {
+					color: #a3543f !important;
+				}
+				.navbar-nav li.current a {
+					padding-bottom: 0;
+					border-bottom: none;
+				}
+
+	/* Slider Section Styles Starts */
+	
+	.camera_caption {
+		top: 8%;
+	}
+		.camera_caption h1 {
+			font-size: 22px;
+		}
+
+	/* Featured Block Styles Starts */
+	
+	.featured-block {
+		padding-top: 5px;
+	}	
+		.featured-block .img-responsive {
+			padding-top: 30px;
+		}
+
+	/* About Section Styles Starts */
+	
+	.about {
+		text-align: center;
+	}
+		.about h2 {
+			line-height: 40px;
+		}
+		.about h2 span {
+			font-size: 30px;
+		}
+		.about p.lead {
+			font-size: 16px;
+		}
+		.about .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	.coffee-machine {
+		text-align: center;
+	}
+		.coffee-machine h2 {
+			line-height: 30px;
+			font-size: 25px;
+		}
+		.coffee-machine h2 span {
+			font-size: 25px;
+		}
+		.coffee-machine p.lead {
+			font-size: 16px;
+		}
+		.coffee-machine .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.spl-box {
+			padding: 30px;
+		}
+			.spl-box h2 {
+				font-size: 38px;
+			}
+			
+	/* Services Section Styles Starts */
+	
+	.services {
+		text-align: center;
+	}
+		.services .img-responsive {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	/* Gallery Section Styles Starts */
+	
+		ul#gallery-filter li a.btn {
+			padding: 6px 15px;
+			font-size: 16px;
+		}
+	
+		ul#gallery-grid li {
+			min-height: 83px;
+			height: auto !important;
+			height:83px;
+		}
+			ul#gallery-grid li .img-responsive {
+				margin-left: auto;
+				margin-right: auto;
+			}
+				.head-part {
+					height: 100%;
+				}
+					.head-part i.fa {
+						font-size: 26px;
+					}
+
+	/* Contact Section Styles Starts */
+	
+	.contact form {
+		margin-bottom: 30px;
+	}
+
+	/* Footer Section Styles */
+
+	.footer 	 {
+		text-align:center;
+	}
+		.footer ul {
+			float:none;
+			margin:20px 0 0 0;
+		}
+			.footer li {
+				padding-left: 10px;
+				font-size: 30px;
+			}
+			
+	/* Generic Styles Starts */
+	
+	.spacer { height: 20px; }
+	
+
+	.coffee-machine ul li {
+		float: none;
+
+	}
+	.coffee-machine{
+		text-align: left;
+	}
+	.coffee-machine a img{
+		left: 0;
+		position: relative;
+		width: 50%;
+	}
+	.coffee-machine ul h4 {
+		width: auto;
+	}
+	.machine-pic{
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+		position: relative;
+	}
+
+	.col-md-3 .col-xs-12 .img-responsive{
+		position: relative;
+		top: 12px;
+		left: 12px;
+	}
+
+	body{
+		font: 12px "Arimo",Arial,Helvetica,sans-serif;
+	}
+
+	.coffee-machine ul{
+		width: 100%;
+		}
+		.rent-table{
+			width: 65%;
+		}
+
+		.rent-table td {
+		    text-align: center;
+		    font-size: 14px;
+		    padding: 0px 3px;
+		    width: 100%;
+		}
+		.rent-table td img {
+			height: 35px;
+		}
+		.coffee-count {
+			//width: 160px;
+			//margin: 0 auto;
+		}
+
+	h3 {
+	    font-size: 23px;
+	}
+
+	.options{
+		font-size: 12px;
+		width: 100%;
+	}
+	.options-left{
+		width: 60%;
+	}
+
+	.machine-pic img{
+		width: 90%;
+	}
+	.container .col-xs-12 .bounceInRight .img-responsive,
+	.container .bounceInUp .col-xs-12 .img-responsive{
+		width: 50%;
+	}
+	.container ul a img{
+		width: 35%;
+	}
+	.office-machines img{
+		width: 40%;
+	}
+	.hover-content img{
+		width: 100%;
+	}
+	.rent-table tr:nth-child(1) th:nth-child(1){
+		display: none;
+	}
+	.coffee-count{
+		display: none;
+	}
+	.rent-table tr{
+		height: 30px;
+	}
+
+}
+/*@media (max-width: 320px){
+
+
+	body{
+		font: 8px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.options{
+	font-size: 10px;
+	}
+	.options-left{
+	width: 80%;
+	}
+	.coffee-machine ul{
+	width: 100%;
+	}
+	.rent-table{
+		width: 210px;
+	}
+
+	.rent-table td {
+	    text-align: center;
+	    font-size: 8px;
+	    padding: 0px 3px;
+	    width: 100%;
+	}
+	.rent-table td img {
+		height: 21px;
+	}
+	
+	
+	.container .col-xs-12 .bounceInRight .img-responsive,
+	.container .bounceInUp .col-xs-12 .img-responsive{
+		width: 70%;
+	}
+	.container ul a img{
+		width: 40%;
+	}
+	.office-machines img{
+		width: 40%;
+	}
+	.ruble:before {
+	  top: 0.12em;
+	}
+	.container ul h4 span{
+		font-size: 18px;
+	}
+	.container .wow a h3{
+		font-size: 20px;
+	}
+	.footer p a img{
+	width: 30%;
+	}
+	
+}*/
+@media (max-width: 1495px) {
+	.coffee-machine-zakaz h3{
+		margin-top: 0;
+	}
+	
+	.coffee-machine-zakaz .container{
+	margin-top: 250px;
+	}
+}
+@media (max-width: 1199px) {
+	.article a img{
+		left: 0%;
+	}
+	.wrap_zakaz{
+		background: url('../images/new-bg1.jpg') repeat-x 50% 100%;
+		background-size: 900px;
+		background-color: transparent;
+	}
+	.coffee-machine-zakaz .container{
+		margin-top: 50px;
+	}
+	.myprice{
+		left: -50px;
+	}
+	.coffee-machine-zakaz ul{
+		margin: 0;
+	}
+	.contact_zakaz{
+		padding: 0 0 120px;
+	}
+
+}
+@media (max-width: 992px) { /*793*/
+	.coffee-machine-zakaz form{
+		float: right;
+	}
+	.coffee-machine-zakaz .machine-pic {
+		margin: 40px 40px;
+	}
+	.coffee-machine-zakaz .options {
+		left: 15px;
+	}
+	.myprice{
+		left: 0px;
+	}
+	.zakaz2 .myprice{
+		left: 0;
+	}
+	.contact_zakaz{
+		padding: 0 0 20px;
+	}
+}
+@media (max-width: 768px){
+	.coffee-machine-zakaz .machine-pic{
+		float: left;
+	}
+	.coffee-machine-zakaz ul li {
+    	float: right;
+	}
+	
+}
+@media (max-width: 700px){
+	.coffee-machine-zakaz{
+		font: 12px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 100%;
+	}
+	.coffee-machine-zakaz h3 {
+    font-size: 28px;
+	}
+	.coffee-machine-zakaz form a {
+	    font-size: 14px;
+	}
+	.myprice p {
+    	font-size: 14px;
+	}
+	.ImageChange {
+	    width: 150px;
+	    height: 165px;
+	}
+	.zakaz2 .ImageChange{
+	    width: 200px;
+	    height: 220px;
+	}
+	.myprice {
+    	left: 0;
+    	height: auto;
+	}
+	.coffee-machine-zakaz .options-left {
+    	width: 200px;
+	}
+	.myprice{
+		left: 30px;
+	}
+	.zakaz2 .myprice {
+    	left: 30px;
+	}
+	.zakaz2 .machine-pic img{
+		width: 140%;
+	}
+}
+@media (max-width: 590px){
+	.coffee-machine-zakaz{
+		font: 11px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 220px;
+		right: auto;
+	}
+	.coffee-machine-zakaz form a {
+	    font-size: 12px;
+	}
+	.myprice p {
+    	font-size: 12px;
+	}
+	.ImageChange {
+	    width: 120px;
+	    height: 132px;
+	}
+	.zakaz2 .ImageChange{
+	    width: 200px;
+	    height: 220px;
+	}
+	.coffee-machine-zakaz ul li p{
+		padding-left: 15px;
+	}
+	.zakaz2 .myprice {
+	    left: 0px;
+	}
+	.zakaz2 .machine-pic{
+		margin: 30px 175px;
+	}
+		.zakaz2 .machine-pic img{
+		width: 200px;
+	}
+		.zakaz2 form {
+    	margin: 40px 120px;
+	}
+	.zakaz2 form a{
+		font-size: 16px;
+	}
+	.zakaz2 .myprice p{
+		font-size: 16px;
+	}
+	.zakaz2 .myprice p strong{
+    	font-size: 18px;
+	}
+}
+@media (max-width: 543px){
+	.coffee-machine-zakaz{
+		font: 16px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 250px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 34px;
+	}
+	.coffee-machine-zakaz form a {
+	    font-size: 16px;
+	}
+	.myprice p {
+    	font-size: 18px;
+	}
+	.myprice p strong{
+    	font-size: 18px;
+	}
+	.ImageChange {
+	    width: 250px;
+	    height: 275px;
+	}
+	.zakaz2 .ImageChange{
+	    width: 200px;
+	    height: 220px;
+	}
+	.coffee-machine-zakaz ul li{
+		margin: 0px 80px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 16px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 40px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 300px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 80px 30px 80px;
+	}
+	.myprice{
+		left: -10px;
+	}
+	.zakaz2 .myprice {
+    	left: 0px;
+	}
+	.zakaz2 .machine-pic{
+		margin: 30px 145px;
+	}
+	.zakaz2 .machine-pic img{
+		width: 200px;
+	}
+	.zakaz2 form {
+    	margin: 40px 80px;
+	}
+}
+@media (max-width: 507px){
+	.coffee-machine-zakaz{
+		font: 16px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 300px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 30px;
+	}
+	.ImageChange {
+	    width: 250px;
+	    height: 275px;
+	}
+	.coffee-machine-zakaz ul li{
+		margin: 0px 40px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 16px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 40px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 300px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 80px 30px 80px;
+	}
+	.zakaz2 .machine-pic{
+		margin: 30px 145px;
+	}
+	.zakaz2 .machine-pic img{
+		width: 200px;
+	}
+	.zakaz2 form {
+    	margin: 40px 80px;
+	}
+}
+@media (max-width: 452px){
+	.coffee-machine-zakaz{
+		font: 16px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 300px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 30px;
+	}
+	.ImageChange {
+	    width: 250px;
+	    height: 275px;
+	}
+	.coffee-machine-zakaz ul li{
+		margin: 0 10px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 16px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 280px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 60px 30px 60px;
+	}
+	.zakaz2 .machine-pic{
+		margin: 30px 100px;
+	}
+	.zakaz2 .machine-pic img{
+		width: 200px;
+	}
+	.zakaz2 form {
+    	margin: 40px 40px;
+	}
+}
+@media (max-width: 405px){
+	.coffee-machine-zakaz{
+		font: 14px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 300px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 30px;
+	}
+	.contact_zakaz h2 {
+    	font-size: 28px;
+	}
+	.contact .form-control {
+		padding: 6px 12px;
+	}
+	.ImageChange {
+	    width: 250px;
+	    height: 275px;
+	}
+	.coffee-machine-zakaz ul li{
+		font-size: 12px;
+		margin: 0 -40px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 14px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 240px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 30px 30px 30px;
+	}
+	.zakaz2 .machine-pic{
+		margin: 30px 100px;
+	}
+	.zakaz2 .machine-pic img{
+		width: 200px;
+	}
+	.zakaz2 form {
+    	margin: 40px 40px;
+	}
+}
+@media (max-width: 350px){
+	.coffee-machine-zakaz{
+		font: 14px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 250px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 30px;
+	}
+	.ImageChange {
+	    width: 200px;
+	    height: 220px;
+	}
+	.coffee-machine-zakaz ul li{
+		font-size: 12px;
+		margin: 0 -80px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 12px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 200px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 20px 30px 20px;
+	}
+	.contact_zakaz .btn {
+		padding: 10px 10px;
+	}
+	.row-zakaz {
+		margin: 0 20px;
+	}
+}
+@media (max-width: 320px){
+	.coffee-machine-zakaz{
+		font: 14px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 200px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 24px;
+	}
+	.ImageChange {
+	    width: 200px;
+	    height: 220px;
+	}
+	.coffee-machine-zakaz ul li{
+		font-size: 12px;
+		margin: 0 -80px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 12px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 200px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 10px 30px 10px;
+	}
+	.contact_zakaz .btn {
+		padding: 10px 10px;
+	}
+	.zakaz2 .myprice {
+    	left: 20px;
+	}
+}
+@media (max-width: 320px){
+	.coffee-machine-zakaz{
+		font: 14px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 200px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 24px;
+	}
+	.ImageChange {
+	    width: 160px;
+	    height: 165px;
+	}
+	.coffee-machine-zakaz ul li{
+		font-size: 10px;
+		margin: 0 -110px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz ul li strong{
+		font-size: 14px;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 160px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 10px 30px 10px;
+	}
+	.contact_zakaz .btn {
+		padding: 10px 10px;
+		font-size: 16px;
+	}
+	.myprice{
+		left: 35px;
+	}
+	.myprice p{
+		font-size: 14px;
+	}
+	.myprice p strong{
+		font-size: 14px;
+	}
+		.coffee-machine-zakaz form a {
+	    font-size: 14px;
+	}
+	.coffee-machine-zakaz form select {
+	    width: 120px;
+	}
+}
+@media (max-width: 270px){
+	.coffee-machine-zakaz{
+		font: 14px/18px "Arimo",Arial,Helvetica,sans-serif;
+	}
+	.coffee-machine-zakaz .machine-pic img {
+		width: 160px;
+	}
+	.coffee-machine-zakaz .machine-pic{
+		margin: 40px 20px;
+	}
+	.coffee-machine-zakaz h3 {
+    	font-size: 20px;
+	}
+	.ImageChange {
+	    width: 160px;
+	    height: 165px;
+	}
+	.coffee-machine-zakaz ul li{
+		font-size: 10px;
+		margin: 0 -130px;
+		width: 400px;
+	}
+	.coffee-machine-zakaz ul li strong{
+		font-size: 14px;
+		left: 20px;
+		position: relative;
+	}
+	.coffee-machine-zakaz .options {
+		font-size: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 0 20px;
+	}
+	.coffee-machine-zakaz .options-left{
+		width: 150px;
+	}
+	.coffee-machine-zakaz form {
+    	margin: 0 10px 10px 10px;
+	}
+	.contact_zakaz .btn {
+		padding: 10px 10px;
+		font-size: 13px;
+	}
+
+	.myprice p{
+		font-size: 12px;
+	}
+	.myprice p strong{
+		font-size: 12px;
+	}
+		.coffee-machine-zakaz form a {
+	    font-size: 12px;
+	}
+	.coffee-machine-zakaz form select {
+	    width: 120px;
+	}
+	.zakaz2 .myprice p{
+		font-size: 12px;
+	}
+	.zakaz2 .myprice p strong{
+		font-size: 12px;
+	}
+	.zakaz2 .myprice{
+		left: 40px;
+	}
+}
+
+/* Article */
+
+@media (max-width: 992px){
+	.article .HideResp{
+		display: none;
+	}
+	.article .article-office-text{
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+@media (max-width: 372px){
+	.article h2 {
+    	font-size: 36px;
+	}	
+}
+@media (max-width: 330px){
+	.article h2 {
+    	font-size: 30px;
+	}	
+}
+@media (max-width: 280px){
+	.article h2 {
+    	font-size: 25px;
+	}	
+}
+
+/* New-Machines (zakaz3) */
+
+@media (min-width: 1200px){
+	.zakaz3 .ImageChange {
+		right: 200px;
+	}
+}
+@media (max-width: 1199px){
+	.zakaz3 .ImageChange {
+		right: 60px;
+	}	
+}
+@media (max-width: 991px){
+	.zakaz3 .ImageChange{
+	    right: 20px;
+	}
+	.zakaz3 .options{
+	    font-size: 15px;
+	}
+	.zakaz3 .options-left {
+    	width: 300px;
+	}
+}
+@media (max-width: 543px){
+	.zakaz3 .options-left {
+    	width: 180px;
+	}
+		.zakaz3 .options{
+	    font-size: 12px;
+	}
+}
+@media (max-width: 495px){
+	.zakaz3 .options-left {
+    	width: 180px;
+	}
+
+}
+@media (max-width: 480px){
+	.zakaz3 .options-new{
+		display: block;
+		float: left;
+		width: 250px;
+		left: 20px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.zakaz3 .floatleft{
+		float: left;
+	}
+	.zakaz3 .options .options-left, .zakaz3 .options .options-right{
+		display: none;
+	}
+}
+@media (max-width: 991px){
+		.remonttextleft,.remonttextright{
+		text-align: center;
+	}	
+
+}
+@media (max-width: 1270px){
+	#contact .trailer{
+		display: none;
+	}
+	.shadow_size{
+		background: url('../images/contact-bg.jpg') no-repeat;
+		background-size: cover;
+	}
+	.showme{
+		top: 0;
+	}
+	.mapZ iframe{
+		top: 0;
+	}
+}

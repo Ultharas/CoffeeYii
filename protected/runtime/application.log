@@ -6,3 +6,743 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php?r=tea
 ---
+2016/07/10 01:52:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coffeeyii.coffee' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `coffee`.
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (12)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 01:52:24 [error] [exception.CDbException] exception 'CDbException' with message 'The table "coffee" for active record class "Coffee" cannot be found in the database.' in C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php:2387
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Coffee))
+#1 C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php(1490): CActiveRecord->getTableSchema()
+#3 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(12): CActiveRecord->findByPk(3)
+#4 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#10 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=coffee
+---
+2016/07/10 01:59:16 [error] [php] Object of class Coffee could not be converted to string (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:1)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(14): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (1)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (14)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 01:59:32 [error] [php] Object of class Coffee could not be converted to string (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:1)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(14): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (1)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (14)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 01:59:36 [error] [php] Object of class Coffee could not be converted to string (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:1)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(14): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (1)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (14)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 01:59:56 [error] [php] Object of class Coffee could not be converted to string (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:1)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(14): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (1)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (14)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:02:46 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._name" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(1): CComponent->__get('_name')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:03:06 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._name" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(1): CComponent->__get('_name')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:03:17 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._name" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(1): CComponent->__get('_name')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:03:20 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._name" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(1): CComponent->__get('_name')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:03:49 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._coffee_list" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(3): CComponent->__get('_coffee_list')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:03:52 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController._coffee_list" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(3): CComponent->__get('_coffee_list')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:07:07 [error] [php] Invalid argument supplied for foreach() (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:1)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (1)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (13)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:07:39 [error] [php] Illegal string offset 'name' (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:9)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (9)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (13)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:07:48 [error] [php] Illegal string offset 'name' (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:9)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (9)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (13)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:07:52 [error] [php] Illegal string offset 'name' (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:9)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (9)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (13)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:07:53 [error] [php] Illegal string offset 'name' (C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php:9)
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CoffeeController->renderFile()
+#1 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CoffeeController->renderPartial()
+#2 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CoffeeController->render()
+#3 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CoffeeController->runAction()
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CoffeeController->runActionWithFilters()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CoffeeController->run()
+#8 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\coffeeYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=coffee
+in C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php (9)
+in C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php (13)
+in C:\OpenServer\domains\coffeeYii\index.php (13)
+2016/07/10 02:08:48 [error] [exception.CException] exception 'CException' with message 'Property "Coffee.wrapper" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php(145): CComponent->__get('wrapper')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CModel.php(596): CActiveRecord->__get('wrapper')
+#2 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(25): CModel->offsetGet('wrapper')
+#3 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#8 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#14 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 02:09:47 [error] [exception.CException] exception 'CException' with message 'Property "Coffee.wrapper" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\db\ar\CActiveRecord.php(145): CComponent->__get('wrapper')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CModel.php(596): CActiveRecord->__get('wrapper')
+#2 C:\OpenServer\domains\coffeeYii\protected\views\coffee\index.php(25): CModel->offsetGet('wrapper')
+#3 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#6 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#8 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#14 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 12:21:14 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController.title" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\layouts\main.php(96): CComponent->__get('title')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\OpenServer\domains\yii_temp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(214): COutputProcessor->run()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#8 C:\OpenServer\domains\coffeeYii\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#11 C:\OpenServer\domains\yii_temp\framework\web\CController.php(784): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#12 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#13 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#14 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('index')
+#18 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee/index')
+#19 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=coffee/index
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee/index
+---
+2016/07/10 12:21:27 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController.title" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\layouts\main.php(96): CComponent->__get('title')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\OpenServer\domains\yii_temp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(214): COutputProcessor->run()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#8 C:\OpenServer\domains\coffeeYii\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#11 C:\OpenServer\domains\yii_temp\framework\web\CController.php(784): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#12 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#13 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#14 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('index')
+#18 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee/index')
+#19 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=coffee/index
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee/index
+---
+2016/07/10 12:21:44 [error] [exception.CException] exception 'CException' with message 'Property "CoffeeController.title" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\layouts\main.php(96): CComponent->__get('title')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 C:\OpenServer\domains\yii_temp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(214): COutputProcessor->run()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#8 C:\OpenServer\domains\coffeeYii\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#11 C:\OpenServer\domains\yii_temp\framework\web\CController.php(784): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#12 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#13 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#14 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('index')
+#18 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee/index')
+#19 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=coffee/index
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee/index
+---
+2016/07/10 15:11:41 [error] [exception.CException] exception 'CException' with message 'Property "CMenu.class" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWidgetFactory.php(161): CComponent->__set('class', 'nav navbar-nav ...')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CoffeeController), 'zii.widgets.CMe...', Array)
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 C:\OpenServer\domains\coffeeYii\protected\views\layouts\main.php(90): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#6 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#7 C:\OpenServer\domains\yii_temp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\OpenServer\domains\yii_temp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(214): COutputProcessor->run()
+#10 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#11 C:\OpenServer\domains\coffeeYii\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#13 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#14 C:\OpenServer\domains\yii_temp\framework\web\CController.php(784): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#15 C:\OpenServer\domains\coffeeYii\protected\controllers\CoffeeController.php(13): CController->render('index')
+#16 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): CoffeeController->actionIndex()
+#17 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('coffee')
+#22 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=coffee
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee
+---
+2016/07/10 16:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/about
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee/index
+---
+2016/07/10 16:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/about
+HTTP_REFERER=http://coffeeyii/index.php?r=coffee/index
+---
+2016/07/10 16:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=about
+---
+2016/07/10 16:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/about".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/about')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=pages/about
+---
+2016/07/10 16:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/pages
+---
+2016/07/10 18:15:52 [error] [exception.CException] exception 'CException' with message 'CUrlManager.UrlFormat must be either "path" or "get".' in C:\OpenServer\domains\yii_temp\framework\web\CUrlManager.php:511
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\base\CComponent.php(152): CUrlManager->setUrlFormat('')
+#1 C:\OpenServer\domains\yii_temp\framework\YiiBase.php(220): CComponent->__set('urlFormat', '')
+#2 C:\OpenServer\domains\yii_temp\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(531): CModule->getComponent('urlManager')
+#4 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#5 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/site/index
+HTTP_REFERER=http://coffeeyii/index.php/coffee/index
+---
+2016/07/10 18:19:04 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.showScriptName " is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\YiiBase.php(220): CComponent->__set('showScriptName ', false)
+#1 C:\OpenServer\domains\yii_temp\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(531): CModule->getComponent('urlManager')
+#3 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php/coffee/index
+HTTP_REFERER=http://coffeeyii/index.php/site/index
+---
+2016/07/10 18:19:08 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.showScriptName " is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\YiiBase.php(220): CComponent->__set('showScriptName ', false)
+#1 C:\OpenServer\domains\yii_temp\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(531): CModule->getComponent('urlManager')
+#3 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/coffee/index
+---
+2016/07/10 18:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/index".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main/index
+HTTP_REFERER=http://coffeeyii/coffee/index
+---
+2016/07/10 18:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/index".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main/index
+HTTP_REFERER=http://coffeeyii/coffee/index
+---
+2016/07/10 18:21:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2016/07/10 18:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/index".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/main/index
+HTTP_REFERER=http://coffeeyii/coffee/index
+---
+2016/07/10 18:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/about')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/main/about
+HTTP_REFERER=http://coffeeyii/coffee
+---
+2016/07/10 18:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/about
+---
+2016/07/10 18:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('pages')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/pages/abou...')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/main/pages/about
+---
+2016/07/10 18:36:25 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:878
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('about', NULL, true)
+#1 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(39): CController->render('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionAbout()
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/about')
+#8 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/main/about
+---
+2016/07/10 18:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "URLassets".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('URLassets')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('URLassets')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/URLassets/...')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/main/URLassets/images/coffee-beans3.jpg
+HTTP_REFERER=http://coffeeyii/main/about
+---
+2016/07/10 18:40:57 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:878
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('pages/about', NULL, true)
+#1 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(39): CController->render('pages/about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionAbout()
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#7 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/about')
+#8 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/main/about
+HTTP_REFERER=http://coffeeyii/main/about
+---
+2016/07/10 18:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/about')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/main/about
+HTTP_REFERER=http://coffeeyii/main/about
+---
+2016/07/10 18:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\yii_temp\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\yii_temp\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main/about')
+#3 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/main/about
+HTTP_REFERER=http://coffeeyii/about
+---
+2016/07/10 18:45:16 [error] [exception.CException] exception 'CException' with message 'Property "MainController.cafe" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\main\index.php(140): CComponent->__get('cafe')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(32): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/main
+HTTP_REFERER=http://coffeeyii/main
+---
+2016/07/10 18:45:25 [error] [exception.CException] exception 'CException' with message 'Property "MainController.cafe" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\main\index.php(140): CComponent->__get('cafe')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(32): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/main
+HTTP_REFERER=http://coffeeyii/main
+---
+2016/07/10 18:45:36 [error] [exception.CException] exception 'CException' with message 'Property "MainController.cafe" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\main\index.php(140): CComponent->__get('cafe')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(32): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/main
+HTTP_REFERER=http://coffeeyii/main
+---
+2016/07/10 18:46:27 [error] [exception.CException] exception 'CException' with message 'Property "MainController.cafe" is not defined.' in C:\OpenServer\domains\yii_temp\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\coffeeYii\protected\views\main\index.php(140): CComponent->__get('cafe')
+#1 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\yii_temp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', NULL, true)
+#3 C:\OpenServer\domains\yii_temp\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', NULL, true)
+#4 C:\OpenServer\domains\yii_temp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\OpenServer\domains\coffeeYii\protected\controllers\MainController.php(32): CController->render('index')
+#6 C:\OpenServer\domains\yii_temp\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 C:\OpenServer\domains\yii_temp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\OpenServer\domains\yii_temp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\OpenServer\domains\yii_temp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\OpenServer\domains\yii_temp\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#12 C:\OpenServer\domains\yii_temp\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\OpenServer\domains\coffeeYii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/main
+HTTP_REFERER=http://coffeeyii/coffee
+---
