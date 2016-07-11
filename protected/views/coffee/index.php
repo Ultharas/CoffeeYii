@@ -13,7 +13,7 @@ $this->pageTitle=Yii::app()->name;
         <!-- Row / Starts -->
         <div class="row">
             
-            <?php $coffee_both_sides = array_chunk($this->coffee_list, round(sizeof($this->coffee_list) / 2)) ?>
+            <?php $coffee_both_sides = array_chunk($coffee_list, round(sizeof($coffee_list) / 2)) ?>
 
             <?php foreach ($coffee_both_sides as $coffee_one_side): ?>
 

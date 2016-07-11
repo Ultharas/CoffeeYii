@@ -13,10 +13,8 @@ $this->pageTitle=Yii::app()->name;
                 <!-- Row / Starts -->
                 <div class="row">
 
-                    <?php mb_internal_encoding("UTF-8"); ?>
-
                     <!-- Split tea_categories array / Starts -->
-                    <?php $tea_both_sides = array_chunk($this->tea_category, round(sizeof($this->tea_category) / 2)) ?>
+                    <?php $tea_both_sides = array_chunk($tea_categories, round(sizeof($tea_categories) / 2)) ?>
                     <!-- Split tea_categories array / Ends -->
 
                     <?php foreach ($tea_both_sides as $tea_one_side): ?>
@@ -25,6 +23,7 @@ $this->pageTitle=Yii::app()->name;
                     
                             <!-- Tea List / Starts -->                                                              
                             <?php foreach ($tea_one_side as $tea_category): ?>
+                                
                                 <div class="wow fadeInLeft">
                                     <h3><?php echo $tea_category['name']; ?></h3>
                                     <ul>                                        
