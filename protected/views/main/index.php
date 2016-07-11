@@ -9,7 +9,7 @@ $this->pageTitle=Yii::app()->name;
             <div id="camera_wrap_1" class="camera_wrap">
 
                 <!-- Slide #1 Starts -->
-                <div data-src="<?= URL ?>assets/images/slider/slide1.jpg">
+                <div data-src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slide1.jpg">
                     <div class="camera_caption fadeFromBottom hidden-xs">
                         <h1>Мы рады видеть Вас на страницах сайта Компании «Mskcofe»</h1>
                         <p>
@@ -20,7 +20,7 @@ $this->pageTitle=Yii::app()->name;
                 <!-- Slide #1 Ends -->
 
                 <!-- Slide #2 Starts -->
-                <div data-src="<?= URL ?>assets/images/slider/slide2.jpg">
+                <div data-src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider/slide2.jpg">
                     <div class="camera_caption fadeFromBottom hidden-xs">
                         <h1>Доступные цены, гибкие условия сотрудничества, профессионализм</h1>
                         <p>
@@ -41,7 +41,7 @@ $this->pageTitle=Yii::app()->name;
                     <div class="col-sm-4 col-xs-12">
                         <a id="tea-anchor" href="/tea">
                             <div class="wow bounceInUp">
-                                <img class="img-responsive new-pic" src="<?= URL ?>assets/images/index/menu_icons/tea-anchor.png" alt="Regular coffee">
+                                <img class="img-responsive new-pic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/index/menu_icons/tea-anchor.png" alt="Regular coffee">
                                 <h3>Чай</h3>
                             </div>
                         </a>
@@ -49,7 +49,7 @@ $this->pageTitle=Yii::app()->name;
                     <div class="col-sm-4 col-xs-12">
                         <a id="coffee-machine-anchor">
                             <div class="wow bounceIn">
-                                <img class="img-responsive new-pic" src="<?= URL ?>assets/images/index/menu_icons/coffee-machine-anchor.png" alt="Desserts menu">
+                                <img class="img-responsive new-pic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/index/menu_icons/coffee-machine-anchor.png" alt="Desserts menu">
                                 <h3>Кофейные аппараты</h3>
                             </div>
                         </a>
@@ -57,7 +57,7 @@ $this->pageTitle=Yii::app()->name;
                     <div class="col-sm-4 col-xs-12">
                         <a id="coffee-anchor" href="/coffee">
                             <div class="wow bounceInDown">
-                                <img class="img-responsive new-pic" src="<?= URL ?>assets/images/index/menu_icons/coffee-anchor.png" alt="Daily specials">
+                                <img class="img-responsive new-pic" src="<?php echo Yii::app()->request->baseUrl; ?>/images/index/menu_icons/coffee-anchor.png" alt="Daily specials">
                                 <h3>Кофе</h3>
                             </div>
                         </a>
@@ -94,7 +94,7 @@ $this->pageTitle=Yii::app()->name;
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="wow bounceInRight">
-                            <img class="img-responsive" src="<?= URL ?>assets/images/about/about-img1(new).png" alt="Welcome! To Coffee House">
+                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/images/about/about-img1(new).png" alt="Welcome! To Coffee House">
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ $this->pageTitle=Yii::app()->name;
                 <div class="spl-box wow bounceInUp">
                     <div class="row">
                         <div class="col-md-3 col-xs-12">
-                            <img class="img-responsive" src="<?= URL ?>assets/images/about/about-img2(new).png" alt="One stop for your traditional coffee">
+                            <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/images/about/about-img2(new).png" alt="One stop for your traditional coffee">
                         </div>
                         <div class="col-md-9 col-xs-12">
                             <br><br>
@@ -137,7 +137,7 @@ $this->pageTitle=Yii::app()->name;
                     <div class="col-md-6 col-xs-12">
 
                         <!-- Cafe Coffee Machines / Starts -->
-                        <?php foreach ($this->cafe as $cafe): ?>
+                        <?php foreach ($cafe_list as $cafe): ?>
                         
                             <div class="wow fadeInLeft">
                                 <a href="<?= URL ?>article/cafe/<?= $cafe['url_name']; ?>">
@@ -153,15 +153,15 @@ $this->pageTitle=Yii::app()->name;
                                             Вес:<br>
                                         </div>
                                         <div class="options-right">
-                                            <?= $cafe['power']; ?><br>
-                                            <?= $cafe['water_tank_volume']; ?><br>
+                                            <?= $cafe['power']; ?> Вт<br>
+                                            <?= $cafe['water_tank_volume']; ?> л<br>
                                             <?= $cafe['ability_connections_for_water_supply']; ?><br>
                                             <?= $cafe['sizes']; ?><br>
                                             <?= $cafe['weight']; ?><br>
                                         </div>
                                     </div>
                                     <div class="machine-pic">
-                                        <img src="<?= URL ?>assets/images/index/machine/<?= $cafe['pic']; ?>.png" alt="<?= $cafe['name']; ?>">
+                                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/index/machine/<?= $cafe['img']; ?>" alt="<?= $cafe['name']; ?>">
                                     </div>
                                     <li>
                                         <p> 
@@ -170,7 +170,7 @@ $this->pageTitle=Yii::app()->name;
                                         </p>
                                     </li>
                                     <a href="<?= URL ?>coffee_machine/cafe/<?= $cafe['url_name']; ?>">
-                                        <img src="<?= URL ?>assets/images/basket.png" alt="basket">
+                                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/basket.png" alt="basket">
                                     </a>
                                     <h4 class="clearfix"><span><?= $cafe['price']; ?><i class="fa fa-rub"></i></span></h4>
                                 </ul>
@@ -184,7 +184,7 @@ $this->pageTitle=Yii::app()->name;
                 <h2 class="text-center wow fadeInDown">Аренда кофемашин в офис</h2>
                 
                 <!-- Office Coffee Machine / Starts -->
-                <? foreach ($this->office as $office): ?>
+                <? foreach ($office_list as $office): ?>
                     
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="wow zoomIn">
@@ -192,10 +192,10 @@ $this->pageTitle=Yii::app()->name;
                                 <h3 class="text-center"><?= $office['name']; ?></h3>
                             </a>
                             <div class="office-machines">
-                                <img class="img-responsive" src="<?= URL ?>assets/images/coffee-machine/<?= $office['pic']; ?>.png" alt="<?= $office['name']; ?>">  
+                                <img class="img-responsive" src="<?php echo Yii::app()->request->baseUrl; ?>/images/coffee-machine/<?= $office['img']; ?>" alt="<?= $office['name']; ?>">  
                             </div>
                             <a href="<?= URL ?>coffee_machine/office/<?= $office['url_name']; ?>">
-                                <img src="<?= URL ?>assets/images/basket.png" alt="basket">
+                                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/basket.png" alt="basket">
                             </a>
                         </div>
                     </div>                  

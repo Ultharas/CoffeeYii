@@ -29,7 +29,10 @@ class MainController extends Controller
 	{
 		// renders the view file 'protected/views/main/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		$this->render('index', array(
+            'cafe_list' => CoffeeMachine::model()->findall('type=:t', array(':t' => 'cafe')),
+            'office_list' => CoffeeMachine::model()->findall('type=:t', array(':t' => 'office')),
+        ));
 	}
 
 	/**

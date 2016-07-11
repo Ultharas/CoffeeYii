@@ -10,9 +10,8 @@
         public function attributeLabels()
         {
             return array(
-                'id' => 'id',
                 'name' => 'name',
-                'img_name' => 'img_name',
+                'img' => 'img',
                 'packing' => 'packing',
                 'wrapping' => 'wrapping',
                 'storage' => 'storage',

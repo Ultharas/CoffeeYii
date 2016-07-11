@@ -25,7 +25,7 @@ $this->pageTitle=Yii::app()->name;
                     <h3>
                         <?= $coffee['name']; ?></h3>
                     <ul>
-                        <img src="/images/coffee/<?= $coffee['img_name']; ?>">
+                        <img src="/images/coffee/<?= $coffee['img']; ?>">
                         <li>
                             <p>
                                 <span>Расфасовка</span>

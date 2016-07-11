@@ -11,12 +11,19 @@
         {
             return array(
                 'id' => 'id',
-                'tea_category_id' => 'tea_category_id',
                 'name' => 'name',
                 'price' => 'price',
                 'description' => 'description',
+                'tea_category_id' => 'tea_category_id',
             );
         }
+
+        public function relations()
+        {
+            return array(
+                'tea_category' => array(self::BELONGS_TO, 'TeaCategory', 'tea_category_id'),
+            );
+        }        
 
         public static function model($className = __CLASS__)
         {
