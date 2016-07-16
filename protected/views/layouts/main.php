@@ -12,6 +12,53 @@
 	Yii::app()->clientScript->registerScriptFile('/js/jquery.magnific-popup.min.js', CClientScript::POS_END);
 	Yii::app()->clientScript->registerScriptFile('/js/wow.min.js', CClientScript::POS_END);
 	Yii::app()->clientScript->registerScriptFile('/js/custom.js', CClientScript::POS_END);
+
+	Yii::app()->clientScript->registerScript('wow',"
+
+		new WOW().init();
+		
+        setTimeout(function() 
+        {          
+            $('[data-group = all]').trigger('click');
+        }, 150);
+
+	",CClientScript::POS_END);
+
+	//if (explode('/', $_GET['url'])[0] == 'index') :
+	if (Yii::app()->request->requestUri == '/'){
+		Yii::app()->clientScript->registerScript('coffee_icons',"
+			$(document).ready(function() {
+			  	$('#coffee-machine-anchor').click(function() {
+	  				$('html, body').animate({ scrollTop: $('#coffee-machine').offset().top }, 500);
+				});
+			});
+
+			$('.featured-block').find('a').hover(function() {
+				var name = $(this).attr('id');
+				$(this).find('h3').css({'color': '#A3543F'});
+				$(this).find('img').attr(\"src\", '/images/index/menu_icons/' + name + '-hover.png');
+				$(this).find('img').css({
+					 transition: 'all 0.5s ease',
+					 transform: 'rotateZ(360deg)',
+					 MozTransform: 'rotateZ(360deg)',
+					 WebkitTransform: 'rotateZ(360deg)',
+					 msTransform: 'rotateZ(360deg)',
+				});
+			}, function() {
+				var name = $(this).attr('id');
+			 	$(this).find('h3').css({'color': '#FFF'});
+			 	$(this).find('img').attr(\"src\", '/images/index/menu_icons/' + name + '.png');
+			 	$(this).find('img').css({
+					transform: 'rotateZ(720deg)',
+					MozTransform: 'rotateZ(720deg)',
+					WebkitTransform: 'rotateZ(720deg)',
+					msTransform: 'rotateZ(720deg)'
+				});
+			});
+		",CClientScript::POS_END);
+	}	
+
+	$footer_class = (Yii::app()->request->pathinfo == 'info/contacts') ? 'footer showme' : 'footer';
    
 ?>
 <!DOCTYPE html>
@@ -87,18 +134,17 @@
 
 				<!-- Navbar Collapse / Starts -->
 				<div class="navbar-collapse collapse">
-
 					<?php $this->widget('zii.widgets.CMenu', array(
 							'htmlOptions' => array( 'class' => 'nav navbar-nav navbar-right'),
 							'id' => '',
 							'items'=>array(
-								array('label'=>'Главная'   , 'url'=>array('/main/')   , 'active' => Yii::app()->controller->getId() == 'main'),
-								array('label'=>'О компании', 'url'=>array('/about/')  , 'active' => Yii::app()->controller->getId() == 'about'),
-								array('label'=>'Чай'       , 'url'=>array('/tea/')    , 'active' => Yii::app()->controller->getId() == 'tea'),
-								array('label'=>'Кофе'      , 'url'=>array('/coffee/') , 'active' => Yii::app()->controller->getId() == 'coffee'),
-								array('label'=>'Услуги'    , 'url'=>array('/service/'), 'active' => Yii::app()->controller->getId() == 'service'),
-								array('label'=>'Галерея'   , 'url'=>array('/gallery/'), 'active' => Yii::app()->controller->getId() == 'gallery'),
-								array('label'=>'Контакты'  , 'url'=>array('/contact/'), 'active' => Yii::app()->controller->getId() == 'contact'),
+								array('label'=>'Главная'   , 'url'=>array('site/index')),
+								array('label'=>'О компании', 'url'=>array('site/info', 'view'=>'about')),
+								array('label'=>'Чай'       , 'url'=>array('tea/index')),
+								array('label'=>'Кофе'      , 'url'=>array('coffee/index')),
+								array('label'=>'Услуги'    , 'url'=>array('service/index')),
+								array('label'=>'Галерея'   , 'url'=>array('gallery/index')),
+								array('label'=>'Контакты'  , 'url'=>array('site/info', 'view'=>'contacts')),
 						))); 
 					?>
 
@@ -114,7 +160,7 @@
 	<?php echo $content; ?>
 
 	<!-- Footer Section / Starts -->
-	<div class="footer">
+	<div class="<?= $footer_class ?>">
 
 		<!-- Container / Starts -->
 		<div class="container">

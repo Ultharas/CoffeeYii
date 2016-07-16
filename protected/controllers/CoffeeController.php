@@ -1,14 +1,21 @@
 <?php
 
-    class CoffeeController extends Controller
+class CoffeeController extends Controller
+{
+    public function actionIndex()
     {
 
-        public function actionIndex()
-        {
-            $this->render('index', array(
-                'coffee_list' => Coffee::model()->findall(),
-            ));
-        }
-
+        $model = new Coffee('search');
+       
+        $model->unsetAttributes();
+      
+        if(isset($_GET['Coffee'])) $model->attributes = $_GET['Coffee'];
+      
+        $this->render('index', array(
+            'model'=>$model, 'dataProvider'=>$model->search()
+        )); 
     }
+
+}
+
 ?>
